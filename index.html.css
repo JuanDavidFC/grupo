@@ -1,0 +1,334 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+body{font-family:'robot', sans-serif;
+    ;margin: 0;}
+
+
+    h1{font-size: 4.5em;}
+    h2{font-size: 0.7em;}
+    h3{font-size: 2em;}
+    p{font-size: 1.25em;}
+    ul{list-style: none;}
+    li{font-size: 1.25em;}
+
+    button{font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;border-radius: 500px;
+    border: 4px solid rgba(90, 5, 5, 0.651);
+     box-shadow: 2px 2px 10px rgba(243, 243, 243, 0.5);
+    color: rgb(224, 224, 222); background-color: rgb(10, 10, 10);text-align:center;}
+
+  button:hover{background-color: rgba(156, 156, 156, 0.801);}
+  .container{max-width: 3000px;
+   margin: auto;}
+    .color-acento{color: blueviolet;}
+
+   header{background-color: rgb(255, 255, 255);}
+
+
+/* logo-jeans-polera-jogger*/
+
+   header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;color: rgb(106, 29, 184);
+    font-size: 1.5em;
+    background-image: linear-gradient(45deg,magenta,yellow);
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -ms-text-fill-color:transparent;
+    -ms-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    -webkit-text-fill-color:transparent;
+
+  }
+
+
+header .container{
+    display: flex;flex-direction: column;align-items: center center;background-image: linear-gradient(45deg,magenta,yellow);
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -ms-text-fill-color:transparent;
+    -ms-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    -webkit-text-fill-color:transparent;
+}
+header nav { display: flex;
+flex-direction: column;
+text-align: center;
+padding: 25px;}
+header a{ padding: 5px 12px ; text-decoration: none;
+font-weight: bold;
+color: rgb(238, 238, 238);}
+
+header a:hover{color: rgb(124, 82, 151);}
+#hero{
+    display: flex;;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(238, 242, 245);
+    ;background-image:linear-gradient(0deg,rgba(248, 230, 230, 0.5),rgba(0,0,0,0.5)),;
+    ;background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#hero h1{color: rgb(75, 13, 13);
+}
+
+
+#somos-proya .container{text-align: center;
+padding: 200px 12px;background-color: rgb(39, 41, 40);
+color: rgb(38, 67, 110)}
+
+#nuestro-programa{padding: 120px 0px;}
+
+
+#nuestro-programa .container{text-align: center;}
+
+#nuestro-programa h2{margin-top: 0;
+font-size: 5em;}
+
+#nuestro-programa p{display: none;}
+
+#nuestro-programa .carta{background-position: center center;background-size: cover;
+padding: 50px; margin: 20px;
+border-radius: 15px;}
+
+
+.carta:first-child{
+    background-image:  linear-gradient(0deg,rgba(252, 252, 252, 0.5),rgba(0,0,0,0.5))
+,url(img/Polonegrobordado_1024x1024.webp);;background-position: center center;background-size: cover;
+}
+
+.carta:nth-child(2){ background-image: linear-gradient(0deg,rgba(90, 30, 30, 0.5),rgba(0,0,0,0.5))
+    ,url(img/mujer.jpg)}
+
+.carta:nth-child(3){ background-image: linear-gradient(0deg,rgba(90, 30, 30, 0.5),rgba(0,0,0,0.5))
+    ,url(img/polera\ mujer.jpg)
+}
+
+.carta:nth-child(4){
+    background-image:  linear-gradient(0deg,rgba(252, 252, 252, 0.5),rgba(0,0,0,0.5))
+,url(imagenes/4.jpg);;background-position: center center;background-size: cover; 
+}
+
+.carta:nth-child(5){ background-image: linear-gradient(0deg,rgba(90, 30, 30, 0.5),rgba(0,0,0,0.5))
+    ,url(imagenes/443925.jpg)}
+
+.carta:nth-child(6){ background-image: linear-gradient(0deg,rgba(90, 30, 30, 0.5),rgba(0,0,0,0.5))
+    ,url(imagenes/9186.jpg)
+}
+
+
+
+#caracterisicas li{margin: 15px 0 px;
+font-weight: bold;
+padding: 200px 12px;}
+
+
+
+#final h2{font-size: 9vw;}
+
+#final button{font-size: 10vw;}
+
+footer{background-color: rgb(7, 54, 95);}
+
+
+
+@media (min-width: 720px){
+    header{
+       position: fixed;
+       width: 100%;
+    
+    }
+    
+    /*header .container .fs-1{font-size: 35px;}*/
+
+    header .container{
+        font-size: 30px;
+         
+        flex-direction: row;
+        justify-content: space-between; background-color: aqua;
+    }
+
+    #hero h1{
+        font-size:6em;
+        ;align-content: flex-start;
+    
+    }
+
+
+    header nav{
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+     }
+
+           
+
+    
+    #hero h1{
+        font-size: 5.5em;align-content: 150px; ;
+    
+    }
+    #somos-proya .container{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+
+
+
+    #somos-proya .texto{width: 50%;
+    
+          max-width: 600px;
+          text-align: initial;
+          padding-left: 30px;
+          padding: 0px 30px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+    }
+    
+    #somos-proya h2{
+        margin-top: 0px;
+    }
+
+
+    #somos-proya .img-container{
+         background:url("imagenes/494188.jpg");
+         background-size: cover;
+         background-position: center center;
+         height: 500px;width: 400px;
+
+    
+    }
+
+    #nuestro-programa .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #nuestro-programa p{
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    #nuestro-programa h3{ 
+        font-size: 5em;
+    }
+     
+    #nuestro-programa h2{font-size: 3em;}
+    #nuestro-programa h3{ 
+        margin-top: 0;
+        ;
+
+    }
+    #nuestro-programa .carta{
+        padding: 50px;
+    }
+
+    #caracteristicas{
+        background-image: url(imagenes/NatGeo09.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: 50px 10px;
+        
+    
+    
+    
+    }
+
+
+
+    #caracteristicas .container{
+        text-align: initial;
+    }
+
+    #caracteristicas ul{
+        margin-left: 100px;
+    
+    }
+
+    #final h2{font-size: 3em;}
+
+    #final button{font-size:10em ;text-align: center;}  
+/*la parte de abajo reglas y condiciones*/
+
+footer .container{justify-content: flex-end;}
+    
+          
+         
+}
+
+@media (min-width: 1000px) {#caracteristicas{background-position-x:calc(100vw-800px);}}
+    
+
+.estilo-letra{font-family: Georgia, serif;}
+
+video{display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(238, 242, 245);
+    ;background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),;
+    ;background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+    ;;max-width: 100%;
+}
+
+
+
+/*<form action="https://www.youtube.com/watch?v=8-RC-Q7Wtzc&ab_channel=deivchoi">
+            <video src="imagenes/VIDEO PROMOCIONAL MARCA DE ROPA BADAYS.mp4 " autoplay muted loop></video>
+
+            <button>aplica ya!</button>
+        </form>*/
+
+        
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(
+    3, 1fr);
+  gap: 100px;
+  grid-auto-rows: minmax(450px, auto);width: auto;
+}
+
+.gradient-text{background-image: linear-gradient(45deg,magenta,yellow);
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -ms-text-fill-color:transparent;
+    -ms-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    -webkit-text-fill-color:transparent;
+}
+
+.table{font-size: 1.5rem;border-collapse:collapse;}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.button-card{margin-top: 50%;}
+
